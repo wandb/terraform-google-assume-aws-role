@@ -1,6 +1,6 @@
 # Get oidc token
 data "google_service_account_id_token" "oidc" {
-  target_audience = "accounts.google.com"
+  target_audience = var.target_audience
 }
 
 # Generate Access Token
