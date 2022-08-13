@@ -8,7 +8,7 @@ variable "session_name" {
   description = "AWS session name"
 }
 
-variables "duration_seconds" {
+variable "duration_seconds" {
   type    = number
   default = 3600
 }
