@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/wandb/terraform-google-assume-aws-role/compare/v1.0.0...v1.1.0) (2022-08-13)
+
+
+### Features
+
+* Option to set duration seconds ([fc6f3a1](https://github.com/wandb/terraform-google-assume-aws-role/commit/fc6f3a1562f072ded34c2c3786e5ae66a259e634))
+
 ## 1.0.0 (2022-03-11)
 
 
