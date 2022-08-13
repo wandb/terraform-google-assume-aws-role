@@ -8,6 +8,11 @@ variable "session_name" {
   description = "AWS session name"
 }
 
+variables "duration_seconds" {
+  type    = number
+  default = 3600
+}
+
 variable "target_audience" {
   type    = string
   default = "accounts.google.com"
